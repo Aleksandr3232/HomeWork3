@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace HomeWork3
 {
-    internal class User
+    public class User
     {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; }
+        public Gender Gender { get; set; }
     }
 }
