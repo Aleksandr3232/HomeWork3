@@ -12,5 +12,12 @@ namespace HomeWork3
         public string LastName { get; set; }
         public int Age { get; }
         public Gender Gender { get; set; }
+        public User()
+        {
+        }
+        public User(int age)
+        {
+            Age = age;
+        }
     }
 }
